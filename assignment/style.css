@@ -1,5 +1,17 @@
+body {
+  background-image: url("record.png");
+/* background-repeat below is redundant: repeating on the x and y axis is default */
+  background-repeat:repeat;
+  margin: 0;
+}
+
 header {
   background: midnightblue;
   color: white;
   text-align: center;
+}
+
+main {
+  background: lightgrey;
+  padding: 1em;
 }
