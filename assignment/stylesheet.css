@@ -1,17 +1,20 @@
 body {
-  background-image: url("record.png");
-/* background-repeat below is redundant: repeating on the x and y axis is default */
-  background-repeat:repeat;
   margin: 0;
 }
 
-header {
+.background {
+  background-image: url("record.png");
+/* background-repeat below is redundant: repeating on the x and y axis is default */
+  background-repeat:repeat;
+}
+
+.head {
   background: midnightblue;
   color: white;
   text-align: center;
 }
 
-main {
+.main-page {
   background: lightgrey;
   padding: 1em;
 }
