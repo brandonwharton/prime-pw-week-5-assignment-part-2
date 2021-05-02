@@ -5,13 +5,17 @@ body {
 .background {
   background-image: url("record.png");
 /* background-repeat below is redundant: repeating on the x and y axis is default */
-  background-repeat:repeat;
+  background-repeat: repeat;
 }
 
 .head {
   background: midnightblue;
-  color: white;
+  color: White;
   text-align: center;
+}
+
+.head h2 {
+  font-size: 1.8rem;
 }
 
 .main-page {
